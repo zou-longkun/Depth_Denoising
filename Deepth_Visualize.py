@@ -18,3 +18,8 @@ cv2.imshow('depth', depth)
 cv2.waitKey(0)
 
 
+img = cv2.imread('raw_mask.png')  # note three channel
+print(img.shape)
+cv2.imshow('img', img)
+cv2.waitKey(0)
+
